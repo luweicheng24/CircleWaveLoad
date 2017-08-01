@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ruanrong.com.loadingcircle.MainActivity">
+
+<ruanrong.com.loadingcircle.WaveLoadCircle
+    android:layout_width="200dp"
+    android:id="@+id/wave"
+    app:color="#ff77"
+    app:text="60%"
+    android:layout_centerInParent="true"
+    android:layout_height="200dp" />
+<!--<ruanrong.com.loadingcircle.WaveLine
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />-->
+</RelativeLayout>
